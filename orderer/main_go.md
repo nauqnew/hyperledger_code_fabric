@@ -3,6 +3,9 @@
 
 主要过程为：
 
+load config文件，即orderer.yaml
+profiling service指的是go语言的pprof监控工具。
+
 创建 grpc 的服务器。
 
 ```golang
