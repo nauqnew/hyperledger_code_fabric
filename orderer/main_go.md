@@ -44,4 +44,11 @@ signer := localmsp.NewSigner()
 	logger.Info("Beginning to serve requests")
 	grpcServer.Start()
 ```
+=======
+调用 `orderer.common.server` 包中的 `Main()` 方法。
 
+```go
+func main() {
+	server.Main()
+}
+```
